@@ -1,0 +1,29 @@
+.main {
+    display: grid;
+    color: black;
+    grid-area: main;
+    background-color: rgb(247, 232, 181);
+    gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "calidad"
+    "diseño "
+    "madera "
+    "estilo ";
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    section{
+        text-align: center;
+        p{
+            padding: 3px;
+        }
+    }
+}
+
+
+
+
+

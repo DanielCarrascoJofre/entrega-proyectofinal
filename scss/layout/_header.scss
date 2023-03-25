@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    -ms-flex-align: center;
+    font-size: smaller;
+    grid-area: header;
+    color: white;
+    background-color: $background-general;
+    div img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+}

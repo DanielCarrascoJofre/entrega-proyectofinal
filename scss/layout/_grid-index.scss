@@ -1,0 +1,22 @@
+.grid-container > * {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.grid-container { 
+    display: grid;
+    gap: 2px;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 40px 100px auto auto;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "sidebar"
+    "main"
+    "footer";
+}
+.calidad{grid-area: calidad;}
+.diseño{grid-area: diseño;}
+.madera{grid-area: madera;}
+.estilo{grid-area: estilo;}
+
